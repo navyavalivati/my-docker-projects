@@ -38,3 +38,5 @@ This project demonstrates **data management in Docker** through a simple To-Do L
     app-1  | Database initialized!
     app-1  | App running on http://localhost:3000
     ```
+
+    - Stop the container and again run docker compose up --build. You will see the previous data persists.
