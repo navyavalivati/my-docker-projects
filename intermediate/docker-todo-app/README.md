@@ -28,7 +28,7 @@ This project demonstrates **data management in Docker** through a simple To-Do L
     ```
     - Start the Application
     ```bash
-        docker compose build
+        docker-compose up --build
     ```
     The --build flag rebuilds the Node.js app image if changes are detected. <br>
     Wait for logs indicating the app is ready, such as:
